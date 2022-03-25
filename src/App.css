@@ -1,0 +1,49 @@
+.App {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  text-align: center;
+}
+
+.challenge-word{
+  font-size: 100px; 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.option-button{
+  padding: 2em;
+  margin: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.option-button.selected{
+  background-color: aqua;
+  border: 2px solid;
+}
+
+.option-button.wrong{
+  background-color: red;
+  color: white;
+  border: 2px solid;
+}
+
+.option-button.pass.selected{
+  background-color: limegreen ;
+  color: white;
+  border: 2px solid;
+}
+
+.submit-button-wrapper{
+
+}
+
+.submit-button{
+  padding: 2em;
+  margin: 10px;
+}
+
+/* button {
+  -webkit-appearance: none;
+} */
